@@ -32,3 +32,5 @@
 *.app
 
 .vscode/
+
+myoutput.txt
