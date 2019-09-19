@@ -2,10 +2,12 @@
 
 #include <iostream>
 #include <iomanip> // Allows manipulation of input and output
+
 // Ignore the following two includes, they are for this demonstration only,
-// you do not yet need to know them.
+// you DO NOT need to know them!
 #include <cfloat>  // For floating point limits
 #include <climits> // For whole-number limits
+// ---------------------------------------------
 
 using namespace std;
 
