@@ -29,18 +29,27 @@ int main()
     string string1; // An array of chars terminated with the "null" character, essentially holds "human words"
 
     cout << "I'm a string!" << endl;
+    cout << "This is a char: " << '!' << endl; // Note strings use "" and chars use ''
+    
     cout << "\n" << static_cast<int>(CHAR_MIN) << " is the minimum signed char value; " << static_cast<int>(CHAR_MAX) << " is the maximum." << endl;
     cout << static_cast<int>(UCHAR_MAX) << " is the maximum  unsigned char value; " << endl;
+    
     cout << "\n" << SHRT_MIN << " is the minimum signed short value; " << SHRT_MAX << " is the maximum." << endl;
     cout << USHRT_MAX << " is the maximum  unsigned short value; " << endl;
+    
     cout << "\n" << INT_MIN << " is the minimum signed int value; " << INT_MAX << " is the maximum." << endl;
     cout << UINT_MAX << " is the maximum  unsigned int value; " << endl;
+    
     cout << "\n" << LONG_MIN << " is the minimum signed long value; " << LONG_MAX << " is the maximum." << endl;
     cout << ULONG_MAX << " is the maximum  unsigned long value; " << endl;
+    
     cout << "\n" << LLONG_MIN << " is the minimum signed long long value; " << LLONG_MAX << " is the maximum." << endl;
     cout << ULLONG_MAX << " is the maximum  unsigned long long value; " << endl;
+    
     cout << "\n" << scientific << FLT_MIN << " is the minimum float value; " << fixed << FLT_MAX << " is the maximum." << endl;
+    
     cout << "\n" << scientific << DBL_MIN << " is the minimum double value; " << fixed << DBL_MAX << " is the maximum." << endl;
-
+    // More on "scientific" and "fixed" in the next file.
+    
     return 0;
 }
